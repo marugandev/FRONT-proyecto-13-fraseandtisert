@@ -1,0 +1,21 @@
+.color-selector {
+  all: unset;
+  display: flex;
+  gap: var(--fat-space-md);
+}
+
+.color-selector__legend {
+  margin-bottom: var(--fat-space-sm);
+}
+
+.color-selector .button--icon {
+  border: 2px solid var(--fat-color-primary);
+}
+
+.color-selector .button--icon.button--active {
+  border: 2px solid var(--fat-color-accent);
+}
+
+.color-selector .button--icon:hover {
+  border: 2px solid var(--fat-color-accent);
+}

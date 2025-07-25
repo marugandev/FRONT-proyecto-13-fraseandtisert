@@ -1,0 +1,23 @@
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--fat-space-xs);
+  padding: var(--fat-space-2xl);
+  font-size: var(--fat-font-md);
+}
+
+.site-footer__copyright {
+  display: flex;
+  gap: var(--fat-space-xs);
+}
+
+.site-footer__logo {
+  width: 30px;
+}
+
+@media (max-width: 768px) {
+  .site-footer {
+    padding: var(--fat-space-lg);
+  }
+}

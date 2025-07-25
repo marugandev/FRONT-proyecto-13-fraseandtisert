@@ -1,0 +1,30 @@
+/* .underline-link.menu {
+  mix-blend-mode: difference;
+  background-color: transparent;
+}
+ */
+
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-xl);
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-md);
+}
+
+.menu__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-xs);
+}
+
+.menu__sublist {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-sm);
+  padding-left: var(--fat-space-md);
+}

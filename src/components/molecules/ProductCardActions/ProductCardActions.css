@@ -1,0 +1,9 @@
+.product-card__actions {
+  position: absolute;
+  bottom: var(--fat-space-md);
+  left: var(--fat-space-md);
+  right: 0;
+  width: fit-content;
+  display: flex;
+  gap: var(--fat-space-xs);
+}

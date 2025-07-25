@@ -1,0 +1,13 @@
+.product-details-actions__form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-lg);
+}
+.product-details-actions__selectors {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-lg);
+  border: var(--fat-border-base);
+  border-top: var(--fat-border-extra);
+  padding: var(--fat-space-lg);
+}

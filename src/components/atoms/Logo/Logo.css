@@ -1,0 +1,11 @@
+.logo__img {
+  width: 200px;
+  /*   aspect-ratio: 1/1;
+  object-fit: contain; */
+}
+
+@media (max-width: 768px) {
+  .logo__img {
+    width: 100px;
+  }
+}

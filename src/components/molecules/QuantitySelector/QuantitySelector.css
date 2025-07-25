@@ -1,0 +1,28 @@
+.quantity-selector {
+  all: unset;
+  display: flex;
+  gap: var(--fat-space-md);
+}
+
+.quantity-selector__legend {
+  margin-bottom: var(--fat-space-sm);
+}
+
+.quantity-selector__controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--fat-space-md);
+}
+
+.quantity-selector .button--icon {
+  font-size: var(--fat-font-md);
+  background-color: var(--fat-color-text-dark);
+  background-color: transparent;
+  border: 2px solid var(--fat-color-primary);
+}
+
+.quantity-selector .button--icon:hover {
+  border: 2px solid var(--fat-color-accent);
+  background-color: var(--fat-color-accent);
+}

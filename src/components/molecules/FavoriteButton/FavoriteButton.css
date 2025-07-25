@@ -1,0 +1,14 @@
+.button--favorite {
+  color: var(--fat-color-text-dark);
+  background-color: var(--fat-color-background-white-mix);
+  border: 2px solid var(--fat-color-primary);
+}
+
+.button--favorite.button--active {
+  background-color: var(--fat-color-background-accent-mix);
+}
+
+.button--favorite__img {
+  max-width: 30px;
+  padding: var(--fat-space-xs);
+}

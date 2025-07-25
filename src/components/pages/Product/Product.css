@@ -1,0 +1,11 @@
+.site-product {
+  padding: var(--fat-space-2xl);
+  /*   margin: 0 auto; */
+  /*   max-width: var(--fat-max-width); */
+}
+
+@media (max-width: 768px) {
+  .site-product {
+    padding: var(--fat-space-lg);
+  }
+}

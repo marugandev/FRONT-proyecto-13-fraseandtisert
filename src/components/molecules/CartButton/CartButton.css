@@ -1,0 +1,10 @@
+.button--cart {
+  color: var(--fat-color-text-dark);
+  background-color: var(--fat-color-background-white-mix);
+  border: 2px solid var(--fat-color-primary);
+}
+
+.button--cart__img {
+  max-width: 30px;
+  padding: var(--fat-space-xs);
+}

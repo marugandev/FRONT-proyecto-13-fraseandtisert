@@ -1,0 +1,117 @@
+.user-form {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-lg);
+  padding: var(--fat-space-xl);
+  background-color: var(--fat-color-backgroun-menus-mix);
+}
+
+.user-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-md);
+  border: none;
+}
+
+.user-form__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--fat-space-xl);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.user-form__wrapper-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--fat-space-md);
+}
+
+.user-form__wrapper-rigth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--fat-space-md);
+}
+
+.user-form__label {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--fat-font-base);
+  gap: var(--fat-space-xs);
+  font-weight: 600;
+}
+
+.user-form__input {
+  border: none;
+  font-size: var(--fat-font-base);
+  padding: var(--fat-space-md);
+  transition: var(--fat-transition-cubic);
+  background-color: var(--fat-color-background-base);
+}
+
+.user-form__input:focus,
+.user-form__input:hover {
+  outline: none;
+  background-color: var(--fat-color-background-accent);
+  transition: var(--fat-transition-cubic);
+}
+
+.user-form__input-file {
+  display: none;
+}
+
+.user-form__label-file {
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  gap: var(--fat-space-sm);
+}
+
+.user-form__span-file {
+  font-weight: 400;
+  padding: var(--fat-space-sm) var(--fat-space-md);
+  border-radius: var(--fat-border-radius-button);
+  font-size: var(--fat-font-md);
+  cursor: pointer;
+  transition: var(--fat-transition-cubic);
+  color: var(--fat-color-text-dark);
+  background-color: transparent;
+  border: 2px solid var(--fat-color-primary);
+  width: fit-content;
+}
+.user-form__span-file:hover {
+  background-color: var(--fat-color-accent);
+  border: 2px solid var(--fat-color-accent);
+}
+
+.user-form__wrapper-img {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--fat-space-md);
+}
+
+.user-form__img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--fat-border-radius-full);
+  box-shadow: var(--fat-shadow-soft);
+  border: var(--fat-border-base);
+}
+
+.user-form__buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--fat-space-md);
+  margin-top: var(--fat-space-lg);
+}
+
+@media (max-width: 768px) {
+  .user-form .button {
+    width: 100%;
+  }
+}

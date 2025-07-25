@@ -1,0 +1,8 @@
+.social-links {
+  display: flex;
+  gap: var(--fat-space-xs);
+}
+
+.social-links__img {
+  max-width: 24px;
+}

@@ -1,0 +1,11 @@
+.site-admin-orders {
+  max-width: var(--fat-max-width);
+  padding: var(--fat-space-2xl);
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .site-admin-orders {
+    padding: var(--fat-space-lg);
+  }
+}

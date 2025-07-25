@@ -1,0 +1,32 @@
+.underline-link {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--fat-color-text-dark);
+  border: none;
+  background: none;
+  font: inherit;
+  padding: 0;
+}
+
+.underline-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: var(--fat-color-background-dark);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: var(--fat-transition-cubic);
+}
+
+.underline-link:hover::after,
+.underline-link:focus::after,
+.underline-link--active::after {
+  transform: scaleX(1);
+}

@@ -1,0 +1,6 @@
+.product-tags {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: var(--fat-space-xs);
+}

@@ -1,0 +1,30 @@
+.tag {
+  padding: var(--fat-space-xs) calc(var(--fat-space-xs) + 4px);
+  font-size: var(--fat-font-sm);
+  color: var(--fat-color-text-dark);
+  border: var(--fat-border-base);
+  line-height: var(--fat-line-height-md);
+}
+
+.tag--price {
+  color: var(--fat-color-text-light);
+  background-color: var(--fat-color-background-dark);
+}
+
+.tag--category {
+  background-color: var(--fat-color-background-white-mix);
+}
+
+.tag--badge {
+  background-color: var(--fat-color-background-accent-mix);
+}
+
+.tag--discount {
+  background-color: var(--fat-color-background-accent-pastel-mix);
+}
+
+@media (max-width: 768px) {
+  .tag {
+    font-size: var(--fat-font-xs);
+  }
+}

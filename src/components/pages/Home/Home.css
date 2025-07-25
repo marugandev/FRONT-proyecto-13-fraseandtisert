@@ -1,0 +1,20 @@
+.site-home {
+  display: flex;
+  flex-direction: column;
+  /*   gap: var(--fat-space-lg); */
+}
+
+.site-home__collection-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 var(--fat-space-2xl);
+  padding-bottom: var(--fat-space-2xl);
+  /*  align-items: stretch; */
+}
+
+@media (max-width: 768px) {
+  .site-home__collection-container {
+    padding: 0 var(--fat-space-lg);
+    padding-bottom: var(--fat-space-lg);
+  }
+}

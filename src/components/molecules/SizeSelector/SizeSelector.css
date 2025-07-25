@@ -1,0 +1,15 @@
+.size-selector {
+  all: unset;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--fat-space-md);
+}
+
+.size-selector__legend {
+  margin-bottom: var(--fat-space-sm);
+}
+
+.size-selector .button--primary.button--active {
+  border: 2px solid var(--fat-color-accent);
+  background-color: var(--fat-color-accent);
+}

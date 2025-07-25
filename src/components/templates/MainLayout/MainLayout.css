@@ -1,0 +1,13 @@
+.site-main {
+  flex-grow: 1;
+  margin-top: 282px;
+  /* padding: var(--fat-space-2xl); */
+  /*   background-color: var(--fat-color-accent); */
+}
+
+@media (max-width: 768px) {
+  .site-main {
+    margin-top: 142px;
+    /*  padding: var(--fat-space-lg); */
+  }
+}

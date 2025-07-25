@@ -1,0 +1,91 @@
+@keyframes slideIn {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+}
+
+.modal {
+  all: unset;
+  position: fixed;
+  bottom: var(--fat-space-md);
+  left: 50%;
+  transform: translate(-50%);
+  width: fit-content;
+  padding: var(--fat-space-md);
+  background-color: var(--fat-color-background-dark);
+  z-index: var(--fat-z-modal);
+  animation: slideIn var(--fat-transition-modal);
+}
+
+.modal--closing {
+  animation: slideOut var(--fat-transition-modal);
+}
+
+.modal * {
+  color: var(--fat-color-text-light);
+}
+
+.modal__text::before {
+  margin-right: var(--fat-space-sm);
+}
+
+.modal__text--success::before {
+  content: "✔︎";
+}
+
+.modal__text--error::before {
+  content: "❌";
+}
+
+.modal__text--warning::before {
+  content: "⚠️";
+}
+
+.modal__confirm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--fat-space-md);
+}
+
+.modal-confirm__buttons {
+  display: flex;
+  gap: var(--fat-space-md);
+}
+
+.modal-confirm__buttons .button--accept,
+.modal-confirm__buttons .button--cancel {
+  width: 100%;
+}
+
+.modal__loader {
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--fat-color-background-dark);
+  border-top: 2px solid var(--fat-color-text-light);
+  border-radius: 50%;
+  animation: loaderSpin 0.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes loaderSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}

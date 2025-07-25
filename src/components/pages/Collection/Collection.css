@@ -1,0 +1,27 @@
+.site-collection {
+  padding: var(--fat-space-2xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-lg);
+  /* max-width: 1280px;
+  margin: 0 auto; */
+}
+
+.site-collection__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: var(--fat-space-md);
+  grid-auto-flow: row;
+}
+
+@media (max-width: 912px) {
+  .site-collection__content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .site-collection {
+    padding: var(--fat-space-lg);
+  }
+}

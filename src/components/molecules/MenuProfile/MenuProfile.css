@@ -1,0 +1,7 @@
+.menu__nav-profile {
+  border-top: var(--fat-border-base);
+}
+
+.menu__nav-profile .menu__item:first-child {
+  margin-top: var(--fat-space-md);
+}

@@ -1,0 +1,15 @@
+.breadcrumb-product__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--fat-space-sm);
+  line-height: var(--fat-line-height-sm);
+}
+
+.breadcrumb-product__link {
+  cursor: pointer;
+}
+
+.breadcrumb-product__link-current {
+  border-bottom: var(--fat-border-base);
+  line-height: var(--fat-line-height-sm);
+}

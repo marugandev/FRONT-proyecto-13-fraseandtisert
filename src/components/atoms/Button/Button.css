@@ -1,0 +1,100 @@
+.button {
+  padding: var(--fat-space-sm) var(--fat-space-md);
+  border-radius: var(--fat-border-radius-button);
+  font-size: var(--fat-font-md);
+  cursor: pointer;
+  transition: var(--fat-transition-cubic);
+}
+
+.button--primary {
+  color: var(--fat-color-text-dark);
+  background-color: transparent;
+  border: 2px solid var(--fat-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--fat-color-accent);
+  border: 2px solid var(--fat-color-accent);
+}
+
+.button--secondary {
+  color: var(--fat-color-text-light);
+  background-color: var(--fat-color-primary);
+  border: 2px solid var(--fat-color-primary);
+}
+
+.button--secondary:hover {
+  color: var(--fat-color-text-dark);
+  background-color: transparent;
+  border: 2px solid var(--fat-color-primary);
+}
+
+.button--alternative {
+  color: var(--fat-color-text-dark);
+  background-color: var(--fat-color-primary);
+  border: 2px solid var(--fat-color-secondary);
+}
+
+.button--alternative:hover {
+  color: var(--fat-color-red-error);
+  border: 2px solid var(--fat-color-red-error);
+}
+
+.button--accent-red {
+  color: var(--fat-color-red-error);
+  border: 2px solid var(--fat-color-red-error);
+}
+
+.button--accent-red:hover {
+  color: var(--fat-color-text-dark);
+  background-color: var(--fat-color-red-error);
+  border: 2px solid var(--fat-color-red-error);
+}
+
+/* .button--alternative {
+  color: var(--fat-color-text-dark);
+  background-color: transparent;
+  border: 2px solid var(--fat-color-primary);
+} */
+
+.button--close {
+  min-width: 36px;
+  min-height: 36px;
+  border-radius: 50%;
+  font-size: var(--fat-font-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.button--icon {
+  min-width: 36px;
+  min-height: 36px;
+  border-radius: var(--fat-border-radius-full);
+  font-size: var(--fat-font-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.button--accept:hover {
+  color: var(--fat-color-lime-pastel);
+  border: 2px solid var(--fat-color-lime-pastel);
+}
+
+.button--cancel:hover {
+  color: var(--fat-color-red-error);
+  border: 2px solid var(--fat-color-red-error);
+}
+
+.button--delete {
+  font-size: var(--fat-font-xs);
+  width: fit-content;
+}
+
+.button--delete:hover {
+  background-color: var(--fat-color-red-error);
+  border: 2px solid var(--fat-color-red-error);
+}

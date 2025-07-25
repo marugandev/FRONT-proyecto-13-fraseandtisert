@@ -1,0 +1,13 @@
+.site-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--fat-space-2xl);
+}
+
+@media (max-width: 768px) {
+  .site-not-found {
+    padding: var(--fat-space-lg);
+  }
+}

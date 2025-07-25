@@ -1,0 +1,38 @@
+.register-form {
+  width: 500px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-lg);
+  padding: var(--fat-space-xl);
+  background-color: var(--fat-color-backgroun-menus-mix);
+}
+
+.register-form__label {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fat-space-sm);
+}
+
+.register-form__input {
+  border: none;
+  font-size: var(--fat-space-md);
+  padding: var(--fat-space-md);
+  transition: var(--fat-transition-cubic);
+}
+
+.register-form__input:focus,
+.register-form__input:hover {
+  outline: none;
+  background-color: var(--fat-color-background-accent);
+  transition: var(--fat-transition-cubic);
+}
+
+.register-form__text-link {
+  font-size: var(--fat-font-md);
+  margin-bottom: var(--fat-space-md);
+}
+
+.register-form .button {
+  font-size: var(--fat-font-base);
+}
