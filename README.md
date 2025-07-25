@@ -72,4 +72,4 @@ npm run dev
 
 ## **Repositorio Frontend**
 
-El backend del proyecto está disponible en otro repositorio: [BACK-proyecto-13-fraseandtisert]("https://github.com/marugandev/BACK-proyecto-13-fraseandtisert.git").
+El backend del proyecto está disponible en otro repositorio: [BACK-proyecto-13-fraseandtisert](https://github.com/marugandev/BACK-proyecto-13-fraseandtisert.git).
